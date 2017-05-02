@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  
+spring:
+  h2:
+    console:
+      path: /h2-console
+      enabled: true
+      
+security:
+  basic:
+    enabled: true
+  user:
+    name: user
+    password: password
